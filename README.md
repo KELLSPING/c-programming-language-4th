@@ -19,6 +19,8 @@
 
 * Terminal: Windows Terminal + PowerShell core 7
 
+* Compiler: MinGW-w64 12.2.0
+
 ## 學習目標 ##
 
 * 使用 markdown 編寫 README.md

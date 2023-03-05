@@ -28,6 +28,7 @@
 * 無窮迴圈
   * while(1){}
   * ctrl+q 的 ascii 碼為17。
+  * ctrl+c 的 ascii 碼為3。
 
 ## 7.4 使用 do-while 迴圈 ##
 

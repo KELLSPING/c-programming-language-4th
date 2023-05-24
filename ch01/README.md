@@ -41,11 +41,11 @@
 
 3. [Build] 編譯器(Compiler): C 語言常見的編譯器有 GCC、Clang，在此 GCC 為廣義的編譯器，可以達到 build 的所有功能。狹義的編譯器，主要就是將 C 語言轉成組合語言，產出 .s, .asm 檔。
 
-4. [Build] 組譯氣(Assembler): 產出 .o 檔。將低階語言所寫的程式翻譯成目的檔。
+4. [Build] 組譯器(Assembler): 產出 .o 檔。將低階語言所寫的程式翻譯成目的檔。
 
-5. [Build] 連結器(Linker): 將多個目標檔或靜態函式庫 (Static library, .a, .lib) 合併成一個可執行檔或函式庫的工具。
+5. [Build] 連結器(Linker): 將多個目標檔或靜態函式庫 (Static library, .a, .lib) 合併成一個可執行檔 (.exe, .out) 或函式庫的工具。
 
-6. [Run] 載入器(Loader): 產出 .exe, .out 檔。是作業系統的一部份，用於把程式和動態函式庫 (Shared library, .so, .dll) 的指令載入到記憶體 (RAM) 中等待 CPU 執行，當載入完成之後，作業系統會將控制權交給載入的程式碼，讓它開始運作。
+6. [Run] 載入器(Loader): 是作業系統的一部份，用於把程式和動態函式庫 (Shared library, .so, .dll) 的指令載入到記憶體 (RAM) 中等待 CPU 執行，當載入完成之後，作業系統會將控制權交給載入的程式碼，讓它開始運作。
 
 7. [Run] CPU: 對載入的指令進行運算或儲存等操作。
 

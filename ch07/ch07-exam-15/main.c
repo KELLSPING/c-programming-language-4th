@@ -6,7 +6,7 @@
 int main()
 {
     char ch;
-    ch = getch();
+    // ch = getch();
 
     while (ch != 3)
     {
